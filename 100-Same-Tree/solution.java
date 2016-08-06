@@ -12,6 +12,8 @@ public class Solution {
         if (q == null && p == null) {
             return true;
         }
+        
+        /*
         if (q == null && p != null || p == null && q != null) {
             return false;
         }
@@ -21,7 +23,10 @@ public class Solution {
             return false;
         } if (p.left == null && q.left == null && p.right == null && q.right == null && p.val == q.val) {
             return true;
-        } 
+        } */ 
+        if (q == null || p == null) {
+            return false;
+        }
         return p.val == q.val && isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 }
