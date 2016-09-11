@@ -22,12 +22,6 @@ canConstruct("aa", "aab") -> true
 
 <div>
 
-<div id="company_tags" class="btn btn-xs btn-warning">Hide Company Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: inline;">[Apple](/company/apple/)</span></div>
-
-<div>
-
-<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
-
-<span class="hidebutton" style="display: inline;">[String](/tag/string/)</span></div>
+<span class="hidebutton">[String](/tag/string/)</span></div>
