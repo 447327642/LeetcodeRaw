@@ -19,16 +19,16 @@ Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding this
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Adobe](/company/adobe/) [Zenefits](/company/zenefits/)</span></div>
+<span class="hidebutton">[Adobe](/company/adobe/) [Zenefits](/company/zenefits/)</span></div>
 
 <div>
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: none;">[Array](/tag/array/) [Divide and Conquer](/tag/divide-and-conquer/) [Bit Manipulation](/tag/bit-manipulation/)</span></div>
+<span class="hidebutton">[Array](/tag/array/) [Divide and Conquer](/tag/divide-and-conquer/) [Bit Manipulation](/tag/bit-manipulation/)</span></div>
 
 <div>
 
 <div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
-<span class="hidebutton" style="display: none;">[(M) Majority Element II](/problems/majority-element-ii/)</span></div>
+<span class="hidebutton">[(M) Majority Element II](/problems/majority-element-ii/)</span></div>
