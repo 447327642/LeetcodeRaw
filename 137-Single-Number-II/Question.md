@@ -17,10 +17,10 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton">[Bit Manipulation](/tag/bit-manipulation/)</span></div>
+<span class="hidebutton" style="display: none;">[Bit Manipulation](/tag/bit-manipulation/)</span></div>
 
 <div>
 
 <div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
-<span class="hidebutton">[(E) Single Number](/problems/single-number/) [(M) Single Number III](/problems/single-number-iii/)</span></div>
+<span class="hidebutton" style="display: none;">[(E) Single Number](/problems/single-number/) [(M) Single Number III](/problems/single-number-iii/)</span></div>
