@@ -26,9 +26,9 @@ Given _nums1_ = `[1, 2, 2, 1]`, _nums2_ = `[2, 2]`, return `[2, 2]`.
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Binary Search](/tag/binary-search/) [Hash Table](/tag/hash-table/) [Two Pointers](/tag/two-pointers/) [Sort](/tag/sort/)</span></div>
+<span class="hidebutton" style="display: inline;">[Binary Search](/tag/binary-search/) [Hash Table](/tag/hash-table/) [Two Pointers](/tag/two-pointers/) [Sort](/tag/sort/)</span></div>
 
 <div>
 
