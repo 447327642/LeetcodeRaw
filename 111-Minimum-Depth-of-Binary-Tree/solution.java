@@ -7,6 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+// Other's Solution, almost the same as mine.
  public class Solution {
   public int minDepth(TreeNode root) {
  int depth=0;
@@ -31,7 +32,9 @@
  return 0;
   }
  }
- /* My Solution, Why timeout?
+ 
+ // My Solution, Why timeout? Modified by taking the return statement above the children node operations. Seems nothing wrong. Just skip it.
+ /*
 public class Solution {
     public int minDepth(TreeNode root) {
         if (root == null) {
@@ -42,6 +45,9 @@ public class Solution {
         q.offer(root);
         while (q.peek() != null) {
             TreeNode node = q.poll();
+            if(node.left == null && node.right == null) {
+                return node.val;
+            }
             if(node.left != null) {
                 node.left.val = node.val + 1;
                 q.offer(root.left);
@@ -50,13 +56,12 @@ public class Solution {
                 node.right.val = node.val + 1;
                 q.offer(root.right);
             }
-            if(node.left == null && node.right == null) {
-                return node.val;
-            }
         }
         return -1;
     }
-}*/
+}
+
+*/
 
 //(int) Math.round(Math.floor(Math.log10((double) count) / Math.log10((double) 2))) + 1;
 
